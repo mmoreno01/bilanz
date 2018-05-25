@@ -1,0 +1,80 @@
+@import 'variables';
+// $AzulMarino
+
+body{
+    font-family: 'Rubik', sans-serif !important;
+}
+
+#content-header{
+    
+    .content-nosotros{
+        #logo-principal{
+            img{
+                width: 40%;
+                float: none;
+            }
+         
+        }
+        #content-points{
+            p{
+              
+            }
+        }
+   
+        img{
+            width: 40%;
+            margin: 20px 20px;
+        }
+        h5{
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 30px;
+            color: $AzulMarino;
+            padding: 0px 30px;
+            text-transform: uppercase;           
+        }
+        h6{
+            font-weight: bold;
+            color: $AzulMarino;
+        }
+        p{
+            text-align: justify;
+            padding: 10px 30px;
+            font-weight: 100;
+            font-size: 15px;
+        }
+        span{
+            color: $AzulMarino;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        
+        img{
+            width: 50px;
+            float: left;
+        }
+       
+    }
+
+    .content-head{
+        background-color: $AzulMarino;
+
+     
+    }
+    
+}
+
+#nosotros-logo{
+    .content-text{
+        background-color: $AzulMarino;
+        p{
+            color:$blanco; 
+        }
+    }
+    .content-logos{
+        img{
+            width: 50%;
+        }
+    }
+}
