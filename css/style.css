@@ -31,12 +31,22 @@ body {
   float: left; }
 #content-header .content-head {
   background-color: #003879; }
+#content-header .content-img img {
+  width: 400px; }
+#content-header .content-img p {
+  color: #fff;
+  margin: 30px 0px; }
 
 #nosotros-logo .content-text {
   background-color: #003879; }
   #nosotros-logo .content-text p {
-    color: #fff; }
+    color: #fff;
+    margin: 40px 0px;
+    padding: 50px 70px; }
 #nosotros-logo .content-logos img {
-  width: 50%; }
+  width: 200px;
+  margin: 0px 20px;
+  padding: 50px 0px;
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=style.css.map */
