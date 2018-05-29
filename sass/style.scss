@@ -91,3 +91,103 @@ body{
         }
     }
 }
+
+//contenido de servicios
+
+.title-service{
+    h5{
+        color: $AzulMarino;
+        font-size: 30px;
+        text-align: right;
+        letter-spacing: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: gainsboro;
+        font-family: 'Rubik', sans-serif !important;
+
+    }
+}
+
+//seccion  de auditorias
+#content-auditor{
+    img{
+        width: 200px;
+    }
+    .contAuditor{
+        padding: 70px;
+        h1{
+            color: $AzulMarino;
+            text-transform: uppercase;
+            font-size: 30px;
+            letter-spacing: 10px;;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+
+    ul{
+        padding: 0px 20px;
+    }
+   
+}
+
+//seccion asesorias
+#content-asesoria{
+    img{
+        width: 200px;
+    }
+    .contAsesor{
+        padding: 70px;
+        h1{
+            color: $AzulMarino;
+            text-transform: uppercase;
+            font-size: 30px;
+            letter-spacing: 10px;;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+    ul{
+        padding: 0px 20px;
+    }
+   
+
+}
+
+
+//seccion otros servicios
+
+#content-otros{
+    img{
+        width: 200px;
+    }
+    .contOtros{
+        padding: 70px;
+
+        h1{
+            color: $AzulMarino;
+            text-transform: uppercase;
+            font-size: 30px;
+            letter-spacing: 10px;;
+        }
+        p{
+            text-align: justify;
+        }
+    }
+    ul{
+        padding: 0px 20px;
+    }
+}
+
+.title-contacto{
+    h5{
+        color: $AzulMarino;
+        font-size: 30px;
+        letter-spacing: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: gainsboro;
+    }
+}
