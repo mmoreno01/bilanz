@@ -31,11 +31,18 @@ body {
   float: left; }
 #content-header .content-head {
   background-color: #003879; }
-#content-header .content-img img {
-  width: 400px; }
-#content-header .content-img p {
-  color: #fff;
-  margin: 30px 0px; }
+#content-header .content-img {
+  padding: 100px 0px; }
+  #content-header .content-img img {
+    width: 400px; }
+  #content-header .content-img p {
+    color: #fff;
+    margin: 30px 0px; }
+#content-header .sunContimg img {
+  float: right; }
+#content-header .sunContimg p {
+  display: inline-block;
+  padding-left: 190px; }
 
 #nosotros-logo .content-text {
   background-color: #003879; }
@@ -52,15 +59,22 @@ body {
 .title-service h5 {
   color: #003879;
   font-size: 30px;
-  text-align: right;
   letter-spacing: 20px;
   text-transform: uppercase;
   font-weight: bold;
-  background-color: gainsboro;
-  font-family: 'Rubik', sans-serif !important; }
+  font-family: 'Rubik', sans-serif !important;
+  position: absolute;
+  right: 0;
+  background-color: #f2f2f2;
+  padding: 20px 20px; }
+.title-service .cont-title {
+  width: 100%;
+  position: relative; }
 
 #content-auditor img {
-  width: 200px; }
+  width: 150px;
+  display: block;
+  margin: 0 auto; }
 #content-auditor .contAuditor {
   padding: 70px; }
   #content-auditor .contAuditor h1 {
@@ -74,7 +88,9 @@ body {
   padding: 0px 20px; }
 
 #content-asesoria img {
-  width: 200px; }
+  width: 150px;
+  display: block;
+  margin: 0 auto; }
 #content-asesoria .contAsesor {
   padding: 70px; }
   #content-asesoria .contAsesor h1 {
@@ -88,7 +104,9 @@ body {
   padding: 0px 20px; }
 
 #content-otros img {
-  width: 200px; }
+  width: 150px;
+  display: block;
+  margin: 0 auto; }
 #content-otros .contOtros {
   padding: 70px; }
   #content-otros .contOtros h1 {
@@ -101,12 +119,48 @@ body {
 #content-otros ul {
   padding: 0px 20px; }
 
-.title-contacto h5 {
-  color: #003879;
-  font-size: 30px;
-  letter-spacing: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  background-color: gainsboro; }
+.title-contacto {
+  padding: 20px 20px;
+  background-color: #f2f2f2;
+  width: 30%; }
+  .title-contacto h5 {
+    color: #003879;
+    font-size: 30px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-weight: bold; }
+
+#content-contact .contFormulario {
+  padding: 30PX; }
+  #content-contact .contFormulario input {
+    border-bottom: 1px solid #003879;
+    letter-spacing: 10px;
+    font-size: 15px; }
+  #content-contact .contFormulario textarea {
+    width: 100%;
+    border: transparent;
+    border-bottom: 1px solid #003879;
+    letter-spacing: 10px;
+    font-size: 15px; }
+  #content-contact .contFormulario button {
+    width: 100%;
+    background-color: #003879;
+    color: #fff;
+    letter-spacing: 10px;
+    font-size: 15px; }
+  #content-contact .contFormulario button:focus {
+    color: #fff; }
+#content-contact .form-control {
+  border: none;
+  border-radius: 0px; }
+#content-contact .contMapa {
+  padding: 30PX; }
+
+footer {
+  background-color: #636363;
+  padding: 20px; }
+  footer p {
+    color: #fff;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

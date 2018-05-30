@@ -41,8 +41,8 @@
                            
                                
                 </div>
-            <div class="col-md-6 content-head ">
-                    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+            <div class="col-md-6 content-head">
+                    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
                             <a class="navbar-brand" href="#">
                             </a>      
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,9 +62,12 @@
                             </div>    
                         </header>
                         <div class="content-img">
-                            <img src="imagenes/Auditoria-1.jpg" alt="">
-                            <p>Desarrollamos modelos de gestión contable con altos estándares de calidad y profesionalismo</p>
+                            <div class="sunContimg ">
+                                    <img class="" src="imagenes/Auditoria-1.jpg" alt="">
+                                 <div> <p>Desarrollamos modelos de gestión contable con altos estándares de calidad y profesionalismo</p>   </div>       
+                            </div>
                         </div>
+                       
             </div>
             
         </div>
@@ -92,14 +95,16 @@
 
 <!--Seeccion de servicios-->
 <div class="title-service">
-    <h5>servicios</h5>
+    <div class="cont-title">
+        <h5 class="">servicios</h5>
+    </div> 
 </div>
 
 <!--seccion de auditoria-->
-<section id="content-auditor">
+<section id="content-auditor" class="my-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 contAuditor">
+            <div class="col-md-5 contAuditor">
                 <h1>Auditorias</h1>
                 <p>Nuestros servicios de auditoría se enfocan en evaluar la situación financiera de la organización, 
                     expresando oportunamente un análisis independiente que cumpla con los requerimientos normativos del país.</p>
@@ -112,9 +117,12 @@
                     <li>Auditoría de estados financieros.</li>
                 </ul>
             </div>
-            <div class="col-md-6">
-                <img src="imagenes/Asesoria.png" alt="">
+            <div class="col-md-2 d-flex" >
+              <div  class="d-flex align-items-center"> <img src="imagenes/Asesoria.png" alt=""></div>  
             </div>
+            <div class="col-md-5">
+                  
+                </div>
         </div>
     </div>
 </section>
@@ -124,10 +132,12 @@
 <section id="content-asesoria">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
-                <img src="imagenes/Enfoque-1.png" alt="">
+                <div class="col-md-5">
+                    </div>
+            <div class="col-md-2 d-flex">
+              <div  class="d-flex align-items-center"><img src="imagenes/Enfoque-1.png" alt=""></div>  
             </div>
-            <div class="col-md-6 contAsesor">
+            <div class="col-md-5 contAsesor">
                     <h1>Asesorías</h1>
                     <p>Nos enfocamos en el cumplimiento de objetivos a través de las mejores prácticas y estrategias de negocio que el mercado actual requiere.</p>
                         <ul>
@@ -145,7 +155,7 @@
 <section id="content-otros">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 contOtros">
+            <div class="col-md-5 contOtros">
                 <h1>Otros Servicios</h1>
                 <p>Los servicios de Nómina y Precios de Transferencia también son parte del portafolio que Bilanz Auditores ofrece, con las últimas actualizaciones en materia fiscal.</p>
                 <ul>
@@ -154,9 +164,11 @@
                     <li>Nóminas confidenciales</li>
                 </ul>
             </div>
-            <div class="col-md-6">
-                <img src="imagenes/OtrosServicios-3.png" alt="">
+            <div class="col-md-2 d-flex">
+               <div class="d-flex align-items-center"><img  src="imagenes/OtrosServicios-3.png" alt=""></div> 
             </div>
+            <div class="col-md-5">
+                </div>
         </div>
     </div>
 </section>
@@ -167,35 +179,45 @@
         <h5>Contacto</h5>
 </div>
 
-<Section>
+<Section id="content-contact">
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-md-6 contFormulario my-3">
                 <form action="">
                     <div class="form-group">
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" placeholder="NOMBRE">
                     </div>
                     <div class="form-group">
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" placeholder="CORREO">
                     </div>
                     <div class="form-group">
-                            <input type="text" class="form-control">
+                            <input type="text" class="form-control" placeholder="TELÉFONO">
                     </div>
                     <div class="form-group">
-                            <input type="text" class="form-control">
+                        <textarea name="" id="" cols="30" rows="3" placeholder="ESCRIBE UN MENSAJE AQUÍ"></textarea>
                     </div>
                     <div class="form-group">
-                        <button class="btn btn-danger">ENVIAR</button>
+                        <button class="btn">ENVIAR</button>
                     </div>
                 </form>
             </div>
-            <div class="col">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.3679389293184!2d-99.17413258466037!3d19.39650218690481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff71f168e797%3A0xe1dcc8aa9041f0a6!2sJoin+Business+Global+Group!5e0!3m2!1ses-419!2smx!4v1527637884848" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="col-md-6 contMapa my-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.3679389293184!2d-99.17413258466037!3d19.39650218690481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff71f168e797%3A0xe1dcc8aa9041f0a6!2sJoin+Business+Global+Group!5e0!3m2!1ses-419!2smx!4v1527637884848" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
 </Section>
-    
+
+<!--footer-->
+<footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <p>Derechos Reservados</p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 <!--Fin de la Seccion de servicios-->

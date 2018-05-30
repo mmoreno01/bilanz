@@ -61,6 +61,8 @@ body{
         background-color: $AzulMarino;
     }
     .content-img{
+        padding: 100px 0px;
+
         img{
             width: 400px;
         }
@@ -68,6 +70,15 @@ body{
             color: #fff;
             margin: 30px 0px;
 
+        }
+    }
+    .sunContimg{
+        img{
+            float: right;
+        }
+        p{
+            display: inline-block;
+            padding-left: 190px;
         }
     }
     
@@ -95,23 +106,33 @@ body{
 //contenido de servicios
 
 .title-service{
+   
     h5{
-        color: $AzulMarino;
-        font-size: 30px;
-        text-align: right;
-        letter-spacing: 20px;
-        text-transform: uppercase;
-        font-weight: bold;
-        background-color: gainsboro;
-        font-family: 'Rubik', sans-serif !important;
+    color: $AzulMarino;
+    font-size: 30px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif !important;
+    position: absolute;
+    right: 0;
+    background-color:$titulo;
+    padding: 20px 20px;
+       
 
+    }
+    .cont-title{
+        width: 100%;
+        position: relative;
     }
 }
 
 //seccion  de auditorias
 #content-auditor{
     img{
-        width: 200px;
+        width: 150px;
+        display: block;
+        margin: 0 auto;
     }
     .contAuditor{
         padding: 70px;
@@ -135,7 +156,9 @@ body{
 //seccion asesorias
 #content-asesoria{
     img{
-        width: 200px;
+        width: 150px;
+        display: block;
+        margin: 0 auto;
     }
     .contAsesor{
         padding: 70px;
@@ -161,7 +184,9 @@ body{
 
 #content-otros{
     img{
-        width: 200px;
+        width: 150px;
+        display: block;
+        margin: 0 auto;
     }
     .contOtros{
         padding: 70px;
@@ -182,12 +207,59 @@ body{
 }
 
 .title-contacto{
+    padding: 20px 20px;
+    background-color: $titulo;
+    width: 30%;
     h5{
         color: $AzulMarino;
         font-size: 30px;
         letter-spacing: 20px;
         text-transform: uppercase;
         font-weight: bold;
-        background-color: gainsboro;
+    }
+}
+
+//seccion de contacto
+#content-contact{
+    .contFormulario{
+        padding: 30PX;
+        input{
+            border-bottom: 1px solid $AzulMarino;
+            letter-spacing: 10px;
+            font-size: 15px;
+        }
+        textarea{
+            width: 100%;
+            border: transparent;
+            border-bottom: 1px solid $AzulMarino;
+            letter-spacing: 10px;
+            font-size: 15px;
+        }
+        button{
+            width: 100%;
+            background-color: $AzulMarino;
+            color: $blanco;
+            letter-spacing: 10px;
+            font-size: 15px;
+        }
+        button:focus{
+           color: #fff;
+        }
+    }
+    .form-control{
+        border: none;
+        border-radius: 0px;
+    }
+    .contMapa{
+        padding: 30PX;
+    }
+}
+
+footer{
+    background-color:#636363;
+    padding: 20px;
+    p{
+        color: #fff;
+        text-align: center;
     }
 }
