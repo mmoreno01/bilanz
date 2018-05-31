@@ -4,6 +4,8 @@ body {
 #content-header .content-nosotros #logo-principal img {
   width: 40%;
   float: none; }
+#content-header .content-nosotros #content-points {
+  box-sizing: border-box; }
 #content-header .content-nosotros img {
   width: 40%;
   margin: 20px 20px; }
@@ -74,7 +76,8 @@ body {
 #content-auditor img {
   width: 150px;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 40px; }
 #content-auditor .contAuditor {
   padding: 70px; }
   #content-auditor .contAuditor h1 {
@@ -86,6 +89,18 @@ body {
     text-align: justify; }
 #content-auditor ul {
   padding: 0px 20px; }
+#content-auditor .img-audit {
+  position: relative; }
+  #content-auditor .img-audit img {
+    position: absolute;
+    top: 30%; }
+#content-auditor .line-grey {
+  width: 2px;
+  height: 100px;
+  background-color: #003879;
+  position: absolute;
+  bottom: 0;
+  right: 50%; }
 
 #content-asesoria img {
   width: 150px;
@@ -102,6 +117,18 @@ body {
     text-align: justify; }
 #content-asesoria ul {
   padding: 0px 20px; }
+#content-asesoria .img-asesor {
+  position: relative; }
+  #content-asesoria .img-asesor img {
+    position: absolute;
+    top: 20%; }
+#content-asesoria .line-grey {
+  width: 2px;
+  height: 100px;
+  background-color: #003879;
+  position: absolute;
+  bottom: 0;
+  right: 50%; }
 
 #content-otros img {
   width: 150px;
@@ -118,24 +145,35 @@ body {
     text-align: justify; }
 #content-otros ul {
   padding: 0px 20px; }
+#content-otros .img-otros {
+  position: relative; }
+  #content-otros .img-otros img {
+    position: absolute;
+    top: 30%; }
 
 .title-contacto {
-  padding: 20px 20px;
-  background-color: #f2f2f2;
-  width: 30%; }
+  margin-bottom: 100px; }
+  .title-contacto .cont-title {
+    width: 100%;
+    position: relative; }
   .title-contacto h5 {
     color: #003879;
     font-size: 30px;
     letter-spacing: 20px;
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    background-color: #f2f2f2;
+    padding: 20px 20px;
+    position: absolute; }
 
 #content-contact .contFormulario {
   padding: 30PX; }
   #content-contact .contFormulario input {
     border-bottom: 1px solid #003879;
-    letter-spacing: 10px;
     font-size: 15px; }
+  #content-contact .contFormulario label {
+    letter-spacing: 15px;
+    margin-bottom: 0; }
   #content-contact .contFormulario textarea {
     width: 100%;
     border: transparent;
@@ -155,6 +193,14 @@ body {
   border-radius: 0px; }
 #content-contact .contMapa {
   padding: 30PX; }
+#content-contact input:focus {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); }
+#content-contact textarea:focus {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); }
 
 footer {
   background-color: #636363;
@@ -162,5 +208,72 @@ footer {
   footer p {
     color: #fff;
     text-align: center; }
+
+@media (max-width: 576px) {
+  #content-header .content-img img {
+    width: 100%; }
+
+  #content-header .sunContimg p {
+    display: inline-block;
+    padding-left: 0px; }
+
+  #content-header .content-nosotros #logo-principal img {
+    width: 70%;
+    margin: 0px;
+    padding: 20px; }
+
+  #content-header .content-nosotros h5 {
+    letter-spacing: 15px;
+    padding: 0px 0px;
+    text-align: center;
+    font-size: 25px; }
+
+  #nosotros-logo .content-text p {
+    margin: 40px 0px;
+    padding: 0px 30px; }
+
+  .title-service h5 {
+    letter-spacing: 10px; }
+
+  .title-contacto h5 {
+    letter-spacing: 10px; }
+
+  .title-contacto {
+    width: 90%; }
+
+  #content-header .content-nosotros span {
+    font-size: 15px; }
+
+  #content-auditor .contAuditor {
+    padding: 30px; }
+
+  #content-asesoria .contAsesor {
+    padding: 40px; }
+
+  #content-otros .contOtros {
+    padding: 40px; } }
+#content-header .content-nosotros {
+  padding: 10px 0px; }
+  #content-header .content-nosotros p {
+    padding: 10px 30px; }
+
+@media (max-width: 768px) {
+  #content-auditor .contAuditor {
+    padding: 40px; }
+
+  #content-asesoria .contAsesor {
+    padding: 40px; }
+
+  #content-otros .contOtros {
+    padding: 40px; } }
+@media (max-width: 992px) {
+  #content-auditor .contAuditor {
+    padding: 40px; }
+
+  #content-asesoria .contAsesor {
+    padding: 40px; }
+
+  #content-otros .contOtros {
+    padding: 40px; } }
 
 /*# sourceMappingURL=style.css.map */

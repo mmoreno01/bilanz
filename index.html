@@ -17,31 +17,62 @@
 <section id="content-header">
     <div class="container-fluid">
         <div class="row">
-                <div class="col-md-6 content-nosotros px-5">
+            <!--Seccion menu en dispositivos moviles-->
+                <div class="col-sm-12 content-head d-md-none">
+                        <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+                                <a class="navbar-brand" href="#">
+                                </a>      
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                <div class="collapse navbar-collapse  " id="navbarTogglerDemo02">
+                                    <div class="navbar-nav mr-auto ml-auto text-center ">
+                                            <a translate="menuServicios" class="nav-item nav-link mr-4 active" href="index.html">Inicio</a>
+                                            <a translate="menuServicios" class="nav-item nav-link mr-4" href="nosotros.html">JBGG</a>
+                                            <a class="nav-item nav-link mr-4" href="#cont_serv">Servicios</a>                                       
+                                    </div>
+                                   <!-- <div  id="headSocial">
+                                            <a href="https://www.facebook.com/JBGlobalGroup/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                            <a href="https://twitter.com/JBGlobalGroup" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                                            <a href="https://www.linkedin.com/in/join-business-global-group/"target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                                    </div>-->
+                                </div>    
+                            </header>
+                            <div class="content-img">
+                                <div class="sunContimg ">
+                                        <img class="" src="imagenes/Auditoria-1.jpg" alt="">
+                                     <div> <p>Desarrollamos modelos de gestión contable con altos estándares de calidad y profesionalismo</p>   </div>       
+                                </div>
+                            </div>
+                </div>
+            <!--Seccion menu en dispositivos moviles-->
+
+                <div class="col-md-6 content-nosotros">
                         <div id="logo-principal"><img  class="" src="imagenes/bilanz1.png" alt=""></div>
                         <h5>nosotros</h5>
                         <p>Somos un grupo de consultoría y auditoría enfocado en satisfacer las necesidades de nuestros clientes, con altos estándares de calidad y profesionalismo al desarrollar modelos de gestión contable, cuyo objetivo es determinar las operaciones y 
                             variantes básicas entre el volumen operativo y el comportamiento general de su operación, lo que nos da pie a proveer del mejor equipo de capital humano para su empresa</p>
                     
                             <div id="content-points">
-                                <img src="imagenes/Proteccion-2.png" alt="">
+                                <img  class="d-inline" src="imagenes/Proteccion-2.png" alt="">
                                <span>Enfoque Sistemático y Disciplinado</span> 
                                <p>Evaluación y mejoramiento de la efectividad de los procesos de gestión de riesgo, control y dirección</p>
                             
                            
-                                    <img src="imagenes/Alianzas-3.png" alt="">
+                                    <img class="d-inline" src="imagenes/Alianzas-3.png" alt="">
                                 <span> Protección de Intereses</span>
                                 <p>Favorece la seguridad de información y bienes de nuestros socios y clientes</p>
                            
                          
-                                    <img src="imagenes/Auditorias.png" alt="">
+                                    <img class="d-inline" src="imagenes/Auditorias.png" alt="">
                                 <span>Alianzas Estratégicas</span>
                                 <p>Soluciones de negocio respaldadas por firmas internacionales</p>
+                           
                             </div>
                            
                                
                 </div>
-            <div class="col-md-6 content-head">
+            <div class="col-md-6 content-head d-none d-md-block">
                     <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
                             <a class="navbar-brand" href="#">
                             </a>      
@@ -67,7 +98,6 @@
                                  <div> <p>Desarrollamos modelos de gestión contable con altos estándares de calidad y profesionalismo</p>   </div>       
                             </div>
                         </div>
-                       
             </div>
             
         </div>
@@ -82,9 +112,9 @@
                         <p class="d-flex justify-content-center">Contamos con el respaldo de organismos internacionales que verifican cada uno de nuestros procedimientos con el fin de ofrecer un servicio seguro, eficaz y de alta calidad</p>
                     </div>
             <div class="col-md-6 content-logos">
-                <div class="subcont-logos  d-flex justify-content-center">
-                    <img class="d-flex align-items-center" src="imagenes/log.png" alt="">
-                    <img class="d-flex align-items-center" src="imagenes/log1.png" alt="">
+                <div class="subcont-logos text-center">
+                    <img class="d-inline" src="imagenes/log.png" alt="">
+                    <img class="d-inline" src="imagenes/log1.png" alt="">
                 </div>
             </div>
             
@@ -104,7 +134,10 @@
 <section id="content-auditor" class="my-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-5 contAuditor">
+            <div class="col-sm-12 d-md-none">
+                    <img src="imagenes/Asesoria.png" alt="">
+            </div>
+            <div class=" col-sm -12 col-md-5 contAuditor">
                 <h1>Auditorias</h1>
                 <p>Nuestros servicios de auditoría se enfocan en evaluar la situación financiera de la organización, 
                     expresando oportunamente un análisis independiente que cumpla con los requerimientos normativos del país.</p>
@@ -117,12 +150,15 @@
                     <li>Auditoría de estados financieros.</li>
                 </ul>
             </div>
-            <div class="col-md-2 d-flex" >
-              <div  class="d-flex align-items-center"> <img src="imagenes/Asesoria.png" alt=""></div>  
+            <div class="col-md-2 d-none d-md-block img-audit">
+                <div class=""> 
+                  <img  class="d-flex align-items-center" src="imagenes/Asesoria.png" alt="">
+                  <div class="line-grey d-none d-md-block" ></div>
+                </div>  
             </div>
-            <div class="col-md-5">
-                  
-                </div>
+            <div class="col-md-5 d-none d-sm-block"> </div>
+           
+          
         </div>
     </div>
 </section>
@@ -132,11 +168,17 @@
 <section id="content-asesoria">
     <div class="container-fluid">
         <div class="row">
-                <div class="col-md-5">
-                    </div>
-            <div class="col-md-2 d-flex">
-              <div  class="d-flex align-items-center"><img src="imagenes/Enfoque-1.png" alt=""></div>  
+                <div class="col-md-5  d-none d-sm-block"> </div>
+            <div class="col-md-2 img-asesor d-none d-md-block">
+                    <img src="imagenes/Enfoque-1.png" alt="">
+                    <div class="line-grey d-none d-md-block"></div>
             </div>
+            <!--seccion que aparece en dispositivos moviles-->
+            <div class="col-md-2  d-md-none">
+                    <img src="imagenes/Enfoque-1.png" alt="">
+                    <div class="line-grey d-none d-md-block"></div>
+            </div>
+             <!-- fin seccion que aparece en dispositivos moviles-->
             <div class="col-md-5 contAsesor">
                     <h1>Asesorías</h1>
                     <p>Nos enfocamos en el cumplimiento de objetivos a través de las mejores prácticas y estrategias de negocio que el mercado actual requiere.</p>
@@ -155,6 +197,9 @@
 <section id="content-otros">
     <div class="container-fluid">
         <div class="row">
+                <div class="col-sm-12 d-md-none ">
+                        <img src="imagenes/OtrosServicios-3.png" alt="">
+                </div>
             <div class="col-md-5 contOtros">
                 <h1>Otros Servicios</h1>
                 <p>Los servicios de Nómina y Precios de Transferencia también son parte del portafolio que Bilanz Auditores ofrece, con las últimas actualizaciones en materia fiscal.</p>
@@ -164,11 +209,10 @@
                     <li>Nóminas confidenciales</li>
                 </ul>
             </div>
-            <div class="col-md-2 d-flex">
-               <div class="d-flex align-items-center"><img  src="imagenes/OtrosServicios-3.png" alt=""></div> 
+            <div class="col-md-2 d-none d-md-block img-otros">
+               <img  src="imagenes/OtrosServicios-3.png" alt="">
             </div>
-            <div class="col-md-5">
-                </div>
+            <div class="col-md-5  d-none d-sm-block"></div>
         </div>
     </div>
 </section>
@@ -176,25 +220,31 @@
 
 <!--Seeccion de contacto-->
 <div class="title-contacto">
+        <div class="cont-title">
         <h5>Contacto</h5>
+    </div> 
 </div>
 
 <Section id="content-contact">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 contFormulario my-3">
                 <form action="">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="NOMBRE">
+                            <label for="">NOMBRE</label>
+                        <input type="text" class="form-control" placeholder="">
                     </div>
                     <div class="form-group">
-                            <input type="text" class="form-control" placeholder="CORREO">
+                            <label for="">CORREO</label>
+                            <input type="text" class="form-control" placeholder="">
                     </div>
                     <div class="form-group">
-                            <input type="text" class="form-control" placeholder="TELÉFONO">
+                        <label for="">TELÉFONO</label>
+                            <input type="text" class="form-control" placeholder="" >
                     </div>
                     <div class="form-group">
-                        <textarea name="" id="" cols="30" rows="3" placeholder="ESCRIBE UN MENSAJE AQUÍ"></textarea>
+                            <label for="">ESCRIBE UN MENSAJE AQUÍ</label>
+                        <textarea name="" id="" cols="30" rows="3" placeholder=""></textarea>
                     </div>
                     <div class="form-group">
                         <button class="btn">ENVIAR</button>
