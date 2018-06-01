@@ -18,10 +18,11 @@ body {
   text-transform: uppercase; }
 #content-header .content-nosotros h6 {
   font-weight: bold;
-  color: #003879; }
+  color: #003879;
+  padding: 0px 10px; }
 #content-header .content-nosotros p {
   text-align: justify;
-  padding: 10px 30px;
+  padding: 20px 30px;
   font-weight: 100;
   font-size: 15px; }
 #content-header .content-nosotros span {
@@ -274,8 +275,6 @@ footer {
     padding: 40px; } }
 #content-header .content-nosotros {
   padding: 10px 0px; }
-  #content-header .content-nosotros p {
-    padding: 10px 30px; }
 
 @media (max-width: 768px) {
   #content-auditor .contAuditor {
@@ -300,5 +299,16 @@ footer {
 
   #content-otros .contOtros {
     padding: 40px; } }
+@media (max-width: 1350px) {
+  #content-auditor .line-grey {
+    right: 50%; } }
+@media (min-width: 1700px) {
+  #content-auditor .line-grey {
+    right: 78%;
+    bottom: -68px; }
+
+  #content-asesoria .line-grey {
+    right: 78%;
+    bottom: -68px; } }
 
 /*# sourceMappingURL=style.css.map */

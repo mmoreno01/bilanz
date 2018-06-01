@@ -34,10 +34,12 @@ body{
         h6{
             font-weight: bold;
             color: $AzulMarino;
+            padding: 0px 10px;
+
         }
         p{
             text-align: justify;
-            padding: 10px 30px;
+            padding: 20px 30px;
             font-weight: 100;
             font-size: 15px;
         }
@@ -415,10 +417,6 @@ footer{
 #content-header .content-nosotros{
     padding: 10px 0px;
 
-    p{
-        padding: 10px 30px;
-    }
-
 }
 
 @media (max-width: 768px) {
@@ -458,6 +456,19 @@ footer{
 
 }
 
-@media (min-width: 1200px) {
-    
+
+@media (max-width: 1350px) {
+    #content-auditor .line-grey {
+        right: 50%;
+    }
+}
+@media (min-width: 1700px) {
+    #content-auditor .line-grey {
+        right: 78%;
+        bottom: -68px;
+    }
+    #content-asesoria .line-grey {
+        right: 78%;
+        bottom: -68px;
+    }
 }
