@@ -57,12 +57,29 @@ body{
 
     .content-head{
         background-color: $AzulMarino;
+        position: relative;
+
+        #headSocial{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            padding: 10px;
+            a{
+                color: #fff;
+                font-size: 20px;
+                margin: 10px;
+            }
+         
+        }
+       
     }
+
+   
     .content-img{
         padding: 100px 0px;
 
         img{
-            width: 400px;
+            width: 70%;
         }
         p{
             color: #fff;
@@ -239,6 +256,7 @@ body{
             top: 30%;
         }
     }
+   
 }
 
 .title-contacto{
@@ -276,7 +294,6 @@ body{
             width: 100%;
             border: transparent;
             border-bottom: 1px solid $AzulMarino;
-            letter-spacing: 10px;
             font-size: 15px;
         }
         button{
@@ -289,6 +306,11 @@ body{
         button:focus{
            color: #fff;
         }
+        textarea:focus {
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
+            -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            }
     }
     .form-control{
         border: none;
@@ -302,12 +324,22 @@ body{
         -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
         -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
         }
-        textarea:focus {
-            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-            -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); 
-            -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+       
+        .contRedes {
+            position: relative;
+           #headSocial{
+               position: absolute;
+               bottom: 0;
+               right: 0;
+               padding: 0px 20px;
+    
+                a{
+                    color: $AzulMarino;
+                    font-size: 20px;
+                    margin: 10px;
+                }
             }
-
+        }
            
 }
 
@@ -386,6 +418,7 @@ footer{
     p{
         padding: 10px 30px;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -398,6 +431,11 @@ footer{
     }
     #content-otros .contOtros {
         padding: 40px;
+    }
+    #content-header .sunContimg img {
+        float: none; 
+        display: block;
+        margin: 0 auto;
     }
     
 }
@@ -414,9 +452,12 @@ footer{
         padding: 40px;
     }
     
-
 }
 
 @media (max-width: 1200px) {
 
+}
+
+@media (min-width: 1200px) {
+    
 }

@@ -32,11 +32,21 @@ body {
   width: 50px;
   float: left; }
 #content-header .content-head {
-  background-color: #003879; }
+  background-color: #003879;
+  position: relative; }
+  #content-header .content-head #headSocial {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px; }
+    #content-header .content-head #headSocial a {
+      color: #fff;
+      font-size: 20px;
+      margin: 10px; }
 #content-header .content-img {
   padding: 100px 0px; }
   #content-header .content-img img {
-    width: 400px; }
+    width: 70%; }
   #content-header .content-img p {
     color: #fff;
     margin: 30px 0px; }
@@ -178,7 +188,6 @@ body {
     width: 100%;
     border: transparent;
     border-bottom: 1px solid #003879;
-    letter-spacing: 10px;
     font-size: 15px; }
   #content-contact .contFormulario button {
     width: 100%;
@@ -188,6 +197,10 @@ body {
     font-size: 15px; }
   #content-contact .contFormulario button:focus {
     color: #fff; }
+  #content-contact .contFormulario textarea:focus {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); }
 #content-contact .form-control {
   border: none;
   border-radius: 0px; }
@@ -197,10 +210,17 @@ body {
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); }
-#content-contact textarea:focus {
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0); }
+#content-contact .contRedes {
+  position: relative; }
+  #content-contact .contRedes #headSocial {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0px 20px; }
+    #content-contact .contRedes #headSocial a {
+      color: #003879;
+      font-size: 20px;
+      margin: 10px; }
 
 footer {
   background-color: #636363;
@@ -265,7 +285,12 @@ footer {
     padding: 40px; }
 
   #content-otros .contOtros {
-    padding: 40px; } }
+    padding: 40px; }
+
+  #content-header .sunContimg img {
+    float: none;
+    display: block;
+    margin: 0 auto; } }
 @media (max-width: 992px) {
   #content-auditor .contAuditor {
     padding: 40px; }
